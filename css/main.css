@@ -1,0 +1,49 @@
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    line-height: 1.2rem;
+    color: #435159;
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+strong {
+    font-weight: 600;
+}
+p, h3 {
+    font-size: 1rem;
+    margin: 0 0 2px 0
+}
+.details {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+.datePicker, .totals {
+    margin-right: 10px;
+}
+.totals {
+    padding: 0 20px
+}
+
+.bar, .totalBar {
+    background-color: #f0f6fa;
+    display: block;
+    height: 1em;
+}
+.totalBar {
+    background-color: #435159
+}
+
+#chart {
+    margin: 0 auto;
+    border: 0.5px #c2c2c2 solid;
+}
+
+
+input[type="text"] {
+    width: 222px;
+    height: 30px;
+    padding: 10px;
+}

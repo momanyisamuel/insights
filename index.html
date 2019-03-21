@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Component test</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css"> 
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
+    <link rel="stylesheet" href="css/metricsgraphics.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<br><br>
+<div class="container">
+    <div class="details">
+    <div class="datePicker">
+        <input type="text" name="datetimes" />
+    </div>
+    <div class="totals">
+        <h3><strong>Totals - Mobile Banking</strong></h3>
+        <p id="results"></p>
+        <div class="bar">
+            <div class="totalBar" style="width: 10.6009%;"></div>
+        </div>
+    </div>
+    <div class="totals">
+        <h3><strong>Totals - Mobile Transfers</strong></h3>
+        <p id=""></p>
+        <div class="bar">
+            <div class="totalBar" style="width: 10.6009%;"></div>
+        </div>
+    </div>
+    <div class="totals">
+        <h3><strong>Totals - Mobile Utilities</strong></h3>
+        <p id=""></p>
+        <div class="bar">
+            <div class="totalBar" style="width: 10.6009%;"></div>
+        </div>
+    </div>
+    <div class="totals">
+        <h3><strong>Totals - Mobile Airtime</strong></h3>
+        <p id=""></p>
+        <div class="bar">
+            <div class="totalBar" style="width: 10.6009%;"></div>
+        </div>
+    </div>
+    <div class="totals">
+        <h3><strong>Totals - Mobile Loans</strong></h3>
+        <p id=""></p>
+        <div class="bar">
+            <div class="totalBar" style="width: 10.6009%;"></div>
+        </div>
+    </div>
+    </div>
+    <br>
+    <!-- <div id="content"></div> -->
+    <div id="chart">
+        <div id="confidence_band"></div>
+    </div>
+</div>
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"></script>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="js/metricsgraphics.min.js"></script>
+
+<!-- <script src="js/script.js"></script> -->
+<script src="js/build.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+</body>
+</html>
