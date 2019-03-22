@@ -85,7 +85,7 @@ $(function() {
         MG.data_graphic(datagraph);
     });
 
-    function getTotals(data){
+    function getTotals(data) {
         var total = 0;
         for(var i = 0 ; i < data.length; i++){
           total = total + data[i]/1;
